@@ -3,6 +3,11 @@ Azure Artifacts allows you to host and share packages, such as NuGet, npm, Maven
 ### Prerequisites:
 
 1. Install Azure CLI: [https://docs.microsoft.com/en-us/cli/azure/install-azure-cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+
+   ... or better:
+
+   `choco install azure-cli -y`
+
 2. Install Azure DevOps extension for Azure CLI:
 
    `az extension add --name azure-devops`
